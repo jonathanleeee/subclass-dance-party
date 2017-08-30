@@ -26,7 +26,18 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .newDancer1{
-  border:10px solid blue;
-  border-radius:10px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 100px solid blue;
   position:absolute;
+/*  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;*/
 }
+.newDancer2{
+  content: url("https://media.giphy.com/media/LXwUFSRqwf9GE/giphy.gif");
+  position: absolute;
+}
+
